@@ -1,0 +1,9 @@
+max: +10*p0 +7*p1 +3*p2 -1*c0 -2*c1 -5*c2 -10*c3;
+limit_constraint0: c0 <= 1000;
+limit_constraint1: c1 <= 2000;
+limit_constraint2: c2 <= 500;
+limit_constraint3: c3 <= 2000;
+receita_constraint0: +0.200000*p0 +1.000000*p1 +0.400000*p2 <= c0;
+receita_constraint1: +0.500000*p0 +0.100000*p1 +0.200000*p2 <= c1;
+receita_constraint2: +1.000000*p0 +0.300000*p1 +0.200000*p2 <= c2;
+receita_constraint3: +0.100000*p0 +0.100000*p1 +0.000000*p2 <= c3;
