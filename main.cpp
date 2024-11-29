@@ -42,4 +42,8 @@ int main() {
         }
         printf("+%lf*p%lld <= c%lld;\n", receitas[i][j], i, j);
     }
+    for (i = 0; i < m; i++)
+        printf("positive_constraint_c%lld: c%lld >= 0;\n", i, i);
+    for (i = 0; i < n; i++)
+        printf("positive_constraint_p%lld: p%lld >= 0;\n", i, i);
 }
